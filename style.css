@@ -76,4 +76,79 @@ body{
     font-weight: 700;
     color: #162447;
 }
+ .title-section{
+    max-width: 1142px;
+    margin: 43px auto 0;
+}
+.page-title{
+    font-size: 38px;
+    font-weight: 800;
+    line-height: 46px;
+    color: #162447;
+}
+.promo-section{
+    max-width: 1142px;
+    margin: 45px auto 0;
+}
+.promo-in{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 22px;
+}
+.promo{
+    height: 375px;
+    padding: 33px 0 0 30px;
+    border-radius: 4px;
+    color: white;
+    position: relative;
+}
+.promo-green{
+    background: linear-gradient(to bottom, #45b873, #2fa35f);
+}
+.promo-cyan{
+    background: linear-gradient(to bottom, #2fc7dc, #28c3da);
+}
+.promo-title{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 38px;
+}
+.promo-text{
+    width: 303px;
+    margin-top: 21px;
+    font-size: 14px;
+    line-height: 22px;
+}
+.promo-date{
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 24px;
+}
+.promo-date span{
+    font-weight: 700;
+}
+.promo-btn{
+    width: 171px;
+    height: 38px;
+    margin-top: 21px;
+    border: none;
+    border-radius: 19px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    font-size: 13px;
+    font-weight: 700;
+    color: #2f9a5b;
+    cursor: pointer;
+}
+.promo-btn i{
+    font-size: 9px;
+}
+.promo-img{
+    position: absolute;
+    right: 3px;
+    bottom: 5px;
+}
  
