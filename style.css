@@ -316,3 +316,37 @@ body{
     display: inline-block;
     vertical-align: middle;
 }
+.lic-section{
+    height: 783px;
+    background-color: #f1f5f8;
+    position: relative;
+    overflow: hidden;
+}
+.lic-stripes{
+    width: 900px;
+    height: 100%;
+    margin-left: -74px;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    background: repeating-linear-gradient(to right, #ffffff 0px, #ffffff 24px, transparent 24px, transparent 52px);
+    transform: skewX(13.6deg);
+    transform-origin: top left;
+}
+.lic-in{
+    max-width: 1142px;
+    margin: auto;
+    padding-top: 136px;
+    position: relative;
+}
+.licenses{
+    margin-top: 59px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 21px;
+}
+.license{
+    width: 100%;
+    display: block;
+    box-shadow: 0 30px 50px rgba(0, 0, 0, 0.14);
+}
